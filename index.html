@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stylish form</title>
+  </head>
+  <body>
+    <form class="form-grid">
+      <h1 class="h1">Say Hello!</h1>
+      <!-- <h2>Please say Hello!</h2> -->
+      <label for="name">Your Name</label>
+      <input class="style-the-box" type="name" placeholder="Your name" />
+      <label for="email">Email</label>
+      <input
+        class="style-the-box"
+        type="email"
+        placeholder="Enter your email address"
+      />
+      <label for="name"> Needed Services</label>
+      <input
+        class="style-the-box"
+        type="number"
+        name="Choose Services"
+        id="ChooseServices"
+        placeholder="Choose Services"
+        value=""
+      />
+      <label class="black" for="name">Budget</label>
+      <input
+        class="style-the-box"
+        type="number"
+        name="Budget"
+        id="Budget"
+        placeholder="Select Budget"
+        value=""
+      />
+      <p>Message</p>
+      <textarea
+        class="style-the-box side"
+        name="Message"
+        id="Message"
+        placeholder="Your message here..."
+        cols="35"
+        rows="8"
+      ></textarea>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </body>
+</html>

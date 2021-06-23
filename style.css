@@ -1,0 +1,86 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    margin: 0px;
+    background: linear-gradient(to left, #33ccff 30%, #ff99cc 70%);
+  }
+  
+  header {
+    display: grid;
+    grid-area: header;
+    align-content: center;
+  }
+  h1,
+  h2 {
+    padding-bottom: 5 0px;
+    background: -webkit-linear-gradient(#33ccff 30%, #ff99cc 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  
+  .form-grid label,
+  .form-grid input,
+  .form-grid textarea {
+    display: block;
+  }
+  
+  .form-grid {
+    display: grid;
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    gap: 10px;
+  }
+  
+  .h1 {
+    margin-bottom: 0px;
+    size: 25px;
+    margin-bottom: 40px;
+  }
+
+  p {
+      margin-bottom: 0;
+  }
+  
+  .style-the-box {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-block-end-color: #ff99cc;
+  }
+  
+  textarea {
+    border-right: 0px;
+  }
+  
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"] {
+    background: linear-gradient(to right, #33ccff 10%, #ff99cc 80%);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  label,
+  p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: grey;
+    font-size: 11px;
+  }
+
+  #Budget::-webkit-input-placeholder {color: black;}
+  #ChooseServices::-webkit-input-placeholder {color: black;}
+
+  
